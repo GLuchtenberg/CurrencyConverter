@@ -26,7 +26,7 @@ class InputWithButton extends Component {
     }
 }
 
-InputWithButton.PropTypes = {
+InputWithButton.propTypes = {
     onPress: PropTypes.func,
     editable: PropTypes.bool,
     buttonText: PropTypes.string
